@@ -1,0 +1,8 @@
+path: D:/dataset_detection
+
+train: images/train
+val: images/val
+
+nc: 1
+names:
+  - tank
