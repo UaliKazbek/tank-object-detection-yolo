@@ -21,7 +21,7 @@ Detect tanks in images and videos.
 yolo detect train model=yolov8n.pt data=data.yaml imgsz=640 epochs=50 batch=16 workers=0
 
 ## Results
-epoch,mAP50-95,mAP50,precision,recall
+epoch,mAP50-95,mAP50,precision,recall \
 50,0.49257,0.79642,0.85242,0.75497
 
 ![labels](val_batch0_pred.jpg)
