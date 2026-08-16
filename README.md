@@ -17,6 +17,9 @@ Detect tanks in images and videos.
 - Train / Test
 - this dataset - https://www.kaggle.com/datasets/ualikazbek/tank-detection-yolo
 
+## Weights
+weights - https://drive.google.com/drive/folders/1vI-Wf2-dp4TJElefdt3HgqaWGvFX5Z24?usp=sharing
+
 ## Training
 yolo detect train model=yolov8n.pt data=data.yaml imgsz=640 epochs=50 batch=16 workers=0
 
